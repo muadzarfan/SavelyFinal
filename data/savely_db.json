@@ -1,0 +1,186 @@
+{
+  "users": {
+    "usr_demo_101": {
+      "id": "usr_demo_101",
+      "name": "Alex Pratama (Demo)",
+      "email": "demo@savely.finance",
+      "passwordHash": "10d5064f447f50d4ab9214926db16fe17cfaf081728e72fa4f4bca30fc00be64",
+      "currency": "IDR",
+      "createdAt": "2026-09-22T05:20:55.704Z",
+      "lastLoginAt": "2026-09-22T05:21:07.213Z",
+      "loginHistory": [
+        {
+          "id": "hist_1790054467213",
+          "action": "login",
+          "timestamp": "2026-09-22T05:21:07.213Z",
+          "details": "User authenticated successfully",
+          "userAgent": "curl/7.88.1",
+          "ip": "127.0.0.1"
+        },
+        {
+          "id": "hist_demo_1",
+          "action": "register",
+          "timestamp": "2026-09-22T05:20:55.704Z",
+          "details": "Account created with demo seed template"
+        },
+        {
+          "id": "hist_demo_2",
+          "action": "login",
+          "timestamp": "2026-09-22T05:20:55.704Z",
+          "details": "Initial system login"
+        }
+      ],
+      "profile": {
+        "id": "usr_demo_101",
+        "name": "Alex Pratama",
+        "email": "demo@savely.finance",
+        "currency": "IDR",
+        "monthlyIncome": 15000000,
+        "fixedBills": [
+          {
+            "id": "b1",
+            "name": "Apartment Kost Rent",
+            "amount": 3200000,
+            "dueDay": 1,
+            "category": "Housing",
+            "isPaidThisMonth": true
+          },
+          {
+            "id": "b2",
+            "name": "Fiber Internet WiFi",
+            "amount": 450000,
+            "dueDay": 10,
+            "category": "Utilities & Bills",
+            "isPaidThisMonth": true
+          },
+          {
+            "id": "b3",
+            "name": "Token Listrik PLN",
+            "amount": 400000,
+            "dueDay": 15,
+            "category": "Utilities & Bills",
+            "isPaidThisMonth": true
+          }
+        ],
+        "savingsGoal": {
+          "id": "goal_demo",
+          "title": "Emergency Fund & Holiday",
+          "targetAmount": 50000000,
+          "currentSaved": 28500000,
+          "deadlineDate": "2027-06-30",
+          "monthlyTargetContribution": 3500000,
+          "priority": "high"
+        },
+        "onboarded": true,
+        "createdAt": "2026-09-22T05:20:55.704Z"
+      },
+      "expenses": [
+        {
+          "id": "exp_demo_1",
+          "title": "Mie Ayam Jamur Pangsit",
+          "amount": 25000,
+          "category": "Food & Beverage",
+          "date": "2026-09-22T05:20:55.705Z",
+          "rawVoiceTranscript": "25 ribu buat makan siang mie ayam",
+          "source": "voice",
+          "confidence": 0.98,
+          "detectedLanguage": "id"
+        },
+        {
+          "id": "exp_demo_2",
+          "title": "Ongkos Ojek Grab / Gojek",
+          "amount": 48000,
+          "category": "Transit & Commute",
+          "date": "2026-09-22T05:20:55.705Z",
+          "rawVoiceTranscript": "terus 48 ribu buat ongkos ojek ke kantor",
+          "source": "voice",
+          "confidence": 0.96,
+          "detectedLanguage": "id"
+        },
+        {
+          "id": "exp_demo_3",
+          "title": "Kopi Kenangan Latte",
+          "amount": 35000,
+          "category": "Food & Beverage",
+          "date": "2026-09-21T05:20:55.705Z",
+          "rawVoiceTranscript": "beli kopi 35k",
+          "source": "voice",
+          "confidence": 0.99,
+          "detectedLanguage": "id-colloquial"
+        }
+      ]
+    },
+    "usr_1790054462434_bgota": {
+      "id": "usr_1790054462434_bgota",
+      "name": "Test User",
+      "email": "test@example.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "currency": "IDR",
+      "createdAt": "2026-09-22T05:21:02.434Z",
+      "lastLoginAt": "2026-09-22T05:21:02.434Z",
+      "loginHistory": [
+        {
+          "id": "hist_1790054462434",
+          "action": "register",
+          "timestamp": "2026-09-22T05:21:02.434Z",
+          "details": "Account registered with fresh clean slate template",
+          "userAgent": "curl/7.88.1",
+          "ip": "127.0.0.1"
+        },
+        {
+          "id": "hist_1790054462435",
+          "action": "login",
+          "timestamp": "2026-09-22T05:21:02.434Z",
+          "details": "Initial login session",
+          "userAgent": "curl/7.88.1",
+          "ip": "127.0.0.1"
+        }
+      ],
+      "profile": {
+        "id": "usr_1790054462434_bgota",
+        "name": "Test User",
+        "email": "test@example.com",
+        "currency": "IDR",
+        "monthlyIncome": 12000000,
+        "fixedBills": [
+          {
+            "id": "bill_1790054462434_1",
+            "name": "Housing / Rent",
+            "amount": 2500000,
+            "dueDay": 1,
+            "category": "Housing",
+            "isPaidThisMonth": true
+          },
+          {
+            "id": "bill_1790054462434_2",
+            "name": "Utilities & Internet",
+            "amount": 500000,
+            "dueDay": 10,
+            "category": "Utilities & Bills",
+            "isPaidThisMonth": true
+          }
+        ],
+        "savingsGoal": {
+          "id": "goal_1790054462434",
+          "title": "New House",
+          "targetAmount": 40000000,
+          "currentSaved": 0,
+          "deadlineDate": "2027-12-31",
+          "monthlyTargetContribution": 2000000,
+          "priority": "high"
+        },
+        "onboarded": true,
+        "createdAt": "2026-09-22T05:21:02.434Z"
+      },
+      "expenses": []
+    }
+  },
+  "emailIndex": {
+    "demo@savely.finance": "usr_demo_101",
+    "test@example.com": "usr_1790054462434_bgota"
+  },
+  "tokens": {
+    "de0b9b88bbcb4746d9f7721f7fe32dce51064a5d2d1904ad2f28a1bc778745ac": "usr_1790054462434_bgota",
+    "c5ccb7fd263f5c56b5f0cc3617d50dddf4cfd27894938969bf944cdd9ca99aa7": "usr_demo_101"
+  }
+}
